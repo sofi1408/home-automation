@@ -1,0 +1,57 @@
+@import "../../styles/utils/utils";
+
+.Header {
+  box-shadow: 0 2px 12px 0 $LIGHT_SHADOW;
+  background: #fff;
+  padding: 25px 15px;
+  margin: auto;
+  box-sizing: border-box;
+
+  .HeaderContainer {
+    display: flex;
+    max-width: $MAX_WIDTH;
+    margin: auto;
+  }
+
+  .AppName {
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    &::after {
+      content: "";
+      margin-left: 10px;
+      border-right: 1px solid #000;
+    }
+  }
+
+  .Navigation {
+    margin-top: auto;
+  }
+
+  .MenuBtn {
+    display: none;
+    margin-left: auto;
+  }
+  .checkbox {
+    margin-right: 10px;
+  }
+
+  .AddButton {
+    position: absolute;
+    right: 50px;
+    color: white;
+    background-color: green;
+    border: none;
+    // display: none;
+  }
+
+  @include mobile-view {
+    .Navigation {
+      display: none;
+    }
+
+    .MenuBtn {
+      display: block;
+    }
+  }
+}

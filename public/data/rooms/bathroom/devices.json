@@ -1,0 +1,119 @@
+{
+  "devices": {
+    "7644289570": {
+      "name": "Main Light",
+      "switch": true,
+      "icon": "",
+      "controls": {
+        "9943131538": {
+          "name": "Intensity",
+          "type": "scale",
+          "value": 20,
+          "min": 0,
+          "max": 100,
+          "step": 10
+        },
+        "4996924315": {
+          "name": "Color",
+          "type": "Color",
+          "value": "White",
+          "options": {
+            "White": {
+              "name": "White"
+            },
+            "Yellow": {
+              "name": "Yellow"
+            },
+            "Red": {
+              "name": "Red"
+            },
+            "Blue": {
+              "name": "Blue"
+            },
+            "Green": {
+              "name": "Green"
+            }
+          }
+        }
+      }
+    },
+    "7644289571": {
+      "name": "Secondary light",
+      "switch": true,
+      "icon": "",
+      "controls": {
+        "9943131538": {
+          "name": "Intensity",
+          "type": "scale",
+          "value": 40,
+          "min": 0,
+          "max": 100,
+          "step": 10
+        },
+        "4276924415": {
+          "name": "Color",
+          "type": "Color",
+          "value": "White",
+          "options": {
+            "White": {
+              "name": "White"
+            },
+            "Yellow": {
+              "name": "Yellow"
+            },
+            "Red": {
+              "name": "Red"
+            },
+            "Blue": {
+              "name": "Blue"
+            },
+            "Green": {
+              "name": "Green"
+            }
+          }
+        }
+      }
+    },
+    "5426138347": {
+      "name": "Fan",
+      "switch": true,
+      "icon": "",
+      "controls": {
+        "3895380507": {
+          "name": "Intensity",
+          "type": "mode",
+          "value": "medium",
+          "options": {
+            "low": {
+              "name": "Low",
+              "icon": ""
+            },
+            "medium": {
+              "name": "Medium",
+              "icon": ""
+            },
+            "high": {
+              "name": "High",
+              "icon": ""
+            }
+          }
+        }
+      }
+    },
+    "8572565781": {
+      "name": "Heater",
+      "switch": false,
+      "icon": "",
+      "controls": {
+        "0601482435": {
+          "name": "Temperature",
+          "type": "temperature",
+          "unit": "c",
+          "value": 35,
+          "min": 30,
+          "max": 60
+        }
+      }
+    }
+  }
+}
