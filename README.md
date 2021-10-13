@@ -1,46 +1,6 @@
-# 1. Login page
+## About the project
 
-   <img src="images/1.png"  width="250" height="500">
-<br>
-<br>
-<br>
-
-# 2. Setting up account Page
-
-   <img src="images/2.png"  width="250" height="500">
-<br>
-<br>
-<br>
-
-## 3. Role Options
-
-   <img src="images/3.png">
-<br>
-<br>
-<br>
-
-# 4. Home Screens
-
-## 4. Operator Home Screens
-
-   <img src="images/4.png">
-<br>
-<br>
-<br>
-
-## 5. Operator Home Screens Button Description
-
-   <img src="images/5.png">
-<br>
-<br>
-<br>
-
-## 6. User Home Screens with Button Description
-
-   <img src="images/6.png">
-<br>
-<br>
-<br>
+This is a Smart Home solution for managing the smar devices for end users.
 
 ## Technologies used
 
@@ -63,8 +23,3 @@
 - There are different modes for different devices, light brightness settings, on and off settings
   and color settings for lights.
 - Also the site is responsive.
-
-## What has not been done:
-
-- The admin module is still remaining for developement. The idea was to provide a checkbox for admin (due to lack of time) and then add room buttom will appear (which is implememted so far) and after that a page will apear to add rooms dynamically with the lights in that room.
-- Also i could not create the ux for desktop.
